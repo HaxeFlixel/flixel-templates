@@ -1,0 +1,61 @@
+package $(PackageName);
+
+import nme.display.StageAlign;
+import nme.display.StageScaleMode;
+import nme.display.Sprite;
+import nme.events.Event;
+import nme.events.KeyboardEvent;
+import nme.Lib;
+import nme.ui.Keyboard;
+import org.flixel.FlxGame;
+
+/**
+$(CBI)* ...
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class Main extends Sprite $(CSLB){
+	
+	public function new () $(CSLB){
+		super();
+		
+		if (stage != null) 
+			init();
+		else 
+			addEventListener(Event.ADDED_TO_STAGE, init);
+	}
+	
+	private function init(?e:Event = null):Void $(CSLB){
+		if (hasEventListener(Event.ADDED_TO_STAGE)) $(CSLB){
+			removeEventListener(Event.ADDED_TO_STAGE, init);
+		}
+		
+		initialize();
+		
+		var game:FlxGame = new GameClass();
+		addChild(game);
+		
+		#if (cpp || neko)
+		Lib.current.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyUP);
+		#end
+	}
+	
+	#if (cpp || neko)
+	private function onKeyUP(e:KeyboardEvent):Void $(CSLB){
+		if (e.keyCode == Keyboard.ESCAPE) $(CSLB){
+			Lib.exit();
+		}
+	}
+	#end
+	
+	private function initialize():Void $(CSLB){
+		Lib.current.stage.align = StageAlign.TOP_LEFT;
+		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
+	}
+	
+	// Entry point
+	public static function main() $(CSLB){
+		Lib.current.addChild(new Main());
+	}
+	
+}

@@ -1,0 +1,12 @@
+package $(PackageName);
+
+import nme.Lib;
+import org.flixel.FlxGame;
+	
+class GameClass extends FlxGame $(CSLB){
+	
+	public function new() $(CSLB){
+		super(640, 480, MenuState, 1, 30, 30);
+		forceDebugger = true;
+	}
+}
