@@ -6,34 +6,28 @@
 	<window width="640" height="480" fps="30" orientation="portrait" resizable="true" if="target_flash" />
 	<window width="640" height="480" fps="30" orientation="landscape" fullscreen="false" unless="target_flash" />
  	
-	<set name="BUILD_DIR" value="Export" />
+	<set name="BUILD_DIR" value="export" />
 	
-	<set name="SWF_VERSION" value="10.1" />
-	
-	<app preloader="org.flixel.system.FlxPreloader" />
-	
-	<!--<setenv name="no_console" value="1" />-->
-	
-	<classpath name="Source" />
+	<classpath name="source" />
 	
 	<haxelib name="nme" />
 	<haxelib name="flixel"/>
 	
-	<assets path="Assets" rename="assets" if="android" >
+	<assets path="assets" if="android" >
 		<sound path="data/beep.wav" id="Beep" />
 		
 		<!-- Your sound embedding code here... -->
 		
 	</assets>
 	
-	<assets path="Assets" rename="assets" if="desktop" >
+	<assets path="assets" if="desktop" >
 		<sound path="data/beep.wav" id="Beep" />
 		
 		<!-- Your sound embedding code here... -->
 		
 	</assets>
 	
-	<assets path="Assets" rename="assets" if="target_flash" >
+	<assets path="assets" if="target_flash" >
 		<sound path="data/beep.mp3" id="Beep" />
 		
 		<!-- Your sound embedding code here... -->
@@ -49,13 +43,7 @@
 	<assets path="assets/data/vcr" include="*.png" type="image" />
 	<assets path="assets/data/vis" include="*.png" type="image" />
 	
-	<icon name="Assets/HaxeFlixel.svg" />
-	
-	<!-- DLLs -->
-	<ndll name="std" />
-	<ndll name="regexp" />
-	<ndll name="zlib" />
-	<ndll name="nme" haxelib="nme" />
+	<icon name="assets/HaxeFlixel.svg" />
 	
 	<!-- optimize JS output -->
 	<haxeflag name="--dead-code-elimination" if="html5" />
