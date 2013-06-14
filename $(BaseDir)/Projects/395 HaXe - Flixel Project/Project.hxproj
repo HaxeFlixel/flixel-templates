@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="Project.nmml" />
+    <movie path="Project.xml" />
     <movie fps="30" />
     <movie width="640" />
     <movie height="480" />
@@ -28,7 +28,7 @@
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="nme" />
+    <library name="openfl" />
     <library name="flixel" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
