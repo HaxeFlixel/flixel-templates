@@ -12,9 +12,9 @@ import org.flixel.FlxState;
 import org.flixel.FlxText;
 import org.flixel.util.FlxMath;
 
-class MenuState extends FlxState $(CSLB){
+class PlayState extends FlxState $(CSLB){
 	/**
-	 * Function that is called up when to state is created to set it up. 
+	 * A FlxState which can be used for the actual gameplay.
 	 */
 	override public function create():Void $(CSLB){
 		// Set a background color
@@ -26,7 +26,7 @@ class MenuState extends FlxState $(CSLB){
 		
 		super.create();
 	}
-
+	
 	/**
 	 * Function that is called when this state is destroyed - you might want to 
 	 * consider setting all objects this state uses to null to help garbage collection.
