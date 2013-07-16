@@ -32,7 +32,7 @@ class Main extends Sprite $(CSLB){
 		
 		initialize();
 		
-		var game:FlxGame = new GameClass();
+		var game:FlxGame = new ProjectClass();
 		addChild(game);
 		
 		#if (cpp || neko)
