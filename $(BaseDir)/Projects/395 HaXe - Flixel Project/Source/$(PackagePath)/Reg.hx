@@ -1,6 +1,6 @@
 package;
 
-import flixel.util.FlxSave;
+import org.flixel.FlxSave;
 
 /**
  * Handy, pre-built Registry class that can be used to store

@@ -7,7 +7,7 @@ import flash.events.Event;
 import flash.events.KeyboardEvent;
 import flash.Lib;
 import flash.ui.Keyboard;
-import flixel.FlxGame;
+import org.flixel.FlxGame;
 
 /**
 $(CBI)* ...
@@ -32,7 +32,7 @@ class Main extends Sprite $(CSLB){
 		
 		initialize();
 		
-		var game:FlxGame = new GameClass();
+		var game:FlxGame = new ProjectClass();
 		addChild(game);
 		
 		#if (cpp || neko)

@@ -1,11 +1,11 @@
 package $(PackageName);
 
-import flixel.FlxG;
-import flixel.FlxSprite;
-import flixel.FlxState;
-import flixel.text.FlxText;
-import flixel.ui.FlxButton;
-import flixel.util.FlxMath;
+import org.flixel.FlxG;
+import org.flixel.FlxSprite;
+import org.flixel.FlxState;
+import org.flixel.FlxText;
+import org.flixel.FlxButton;
+import org.flixel.util.FlxMath;
 
 /**
  * A FlxState which can be used for the game's menu.
@@ -18,7 +18,7 @@ class MenuState extends FlxState
 	override public function create():Void
 	{
 		// Set a background color
-		FlxG.cameras.bgColor = 0xff131c1b;
+		FlxG.camera.bgColor = 0xff131c1b;
 		// Show the mouse (in case it hasn't been disabled)
 		#if !FLX_NO_MOUSE
 		FlxG.mouse.show();
