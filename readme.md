@@ -1,12 +1,5 @@
-FlashDevelop-Template
+![](http://www.haxeflixel.com/sites/haxeflixel.com/files/flixel-templates.png)
 =
+###[flixel](https://github.com/HaxeFlixel/flixel) | [flixel-addons](https://github.com/HaxeFlixel/flixel-addons) | [flixel-demos](https://github.com/HaxeFlixel/flixel-demos) | [flixel-tools](https://github.com/HaxeFlixel/flixel-tools) | [flixel-ui](https://github.com/HaxeFlixel/flixel-ui)
 
-This is a template which you can use to create a flixel project in FlashDevelop. The result is identical to the haxelib run flixel command.
-
-###Guide
-
-<ul>
-<li>Click the `Download ZIP` button</li>
-<li>Open the FlxTemplate.fdz file - FlashDevelop should handle everything to install it</li>
-<li>You now have the option to create a new flixel project via Project -> New Project - Enjoy!</li>
-</ul>
+This is set of templates for HaxeFlixel.
