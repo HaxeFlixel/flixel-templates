@@ -65,9 +65,6 @@
 	
 	<!--Enable right and middle click support for the mouse. Flash player version 11.2+, no HTML5 support -->
 	<!--<haxedef name="FLX_MOUSE_ADVANCED" />-->
-	
-	<!--Enables checks for antialiasing for sprite rendering on native targets. And could affect perfomance. -->
-	<!--<haxedef name="FLX_SPRITE_ANTIALIASING" />-->
 
     <!--Disable the Flixel core debugger-->
     <!--<haxedef name="FLX_NO_DEBUG" />-->
