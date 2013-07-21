@@ -1,0 +1,11 @@
+{
+    "name": "flixel-templates",
+    "url": "http://www.haxeflixel.com",
+    "license": "MIT",
+    "tags": ["game", "openfl"],
+    "description": "Templates for HaxeFlixel projects",
+    "version": "0.0.1",
+    "releasenote": "Basic templates for Flash Develop and Sublime Text.",
+    "contributors": ["haxeflixel"],
+    "dependencies": { "flixel": "" }
+}

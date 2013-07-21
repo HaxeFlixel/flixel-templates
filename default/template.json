@@ -1,0 +1,20 @@
+{
+    "replacements":
+    [
+        {
+            "replacement":"FlxProject",
+            "pattern":"${PROJECT_NAME}",
+            "cmdOption":"-n"
+        },
+        {
+            "replacement":"480",
+            "pattern":"${HEIGHT}",
+            "cmdOption":"-h"
+        },
+        {
+            "replacement":"640",
+            "pattern":"${WIDTH}",
+            "cmdOption":"-w"
+        }
+    ]
+}
