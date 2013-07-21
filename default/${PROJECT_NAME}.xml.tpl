@@ -7,51 +7,22 @@
  	
 	<!--The flixel preloader gets stuck in Chrome, so it's disabled by default for now. 
 	Safe to use if you embed the swf into a html file!-->
-	<!--<app preloader="org.flixel.system.FlxPreloader" />-->
+	<!--<app preloader="flixel.system.FlxPreloader" />-->
 	
 	<!--The swf version should be at least 11.2 if you want to use the FLX_MOUSE_ADVANCED option-->
 	<set name="SWF_VERSION" value="11.2" />
 	
 	<set name="BUILD_DIR" value="export" />
-	
 	<classpath name="source" />
-	
-	<assets path="assets" if="android" >
-		<sound path="data/beep.wav" id="Beep" />
-		
-		<!-- Your sound embedding code here... -->
-		
-	</assets>
-	
-	<assets path="assets" if="desktop" >
-		<sound path="data/beep.wav" id="Beep" />
-		
-		<!-- Your sound embedding code here... -->
-		
-	</assets>
-	
-	<assets path="assets" if="flash" >
-		<sound path="data/beep.mp3" id="Beep" />
-		
-		<!-- Your sound embedding code here... -->
-		
-	</assets>
-	
-	<assets path="assets" if="html5" >
-		<sound path="data/beep.mp3" id="Beep" />
-		
-		<!-- Your sound embedding code here... -->
-		
-	</assets>
-	
-	<icon name="assets/HaxeFlixel.svg" />
-	
 	
 	<haxelib name="openfl" />
 	<haxelib name="flixel"/>
 	
-	<!--In case you want to use the addons-->
+	<!--In case you want to use the addons package-->
 	<!--<haxelib name="flixel-addons"/>-->
+	
+	<!--In case you want to use the ui package-->
+	<!--<haxelib name="flixel-ui"/>-->
 	
 	<!--In case you want to use nape with flixel-->
 	<!--<haxelib name="nape"/>-->
@@ -80,5 +51,4 @@
 
 	<!--Disable the Flixel core focus lost screen-->
 	<!--<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />-->
-	
 </project>
