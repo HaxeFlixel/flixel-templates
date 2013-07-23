@@ -4,7 +4,7 @@
 	
 	<window width="${WIDTH}" height="${HEIGHT}" fps="60" orientation="portrait" resizable="true" if="web" />
 	<window width="${WIDTH}" height="${HEIGHT}" fps="60" orientation="landscape" fullscreen="false" hardware="true" vsync="true" unless="web" />
- 	
+	
 	<!--The flixel preloader gets stuck in Chrome, so it's disabled by default for now. 
 	Safe to use if you embed the swf into a html file!-->
 	<!--<app preloader="flixel.system.FlxPreloader" />-->
@@ -14,6 +14,11 @@
 	
 	<set name="BUILD_DIR" value="export" />
 	<classpath name="source" />
+	
+	<assets path="assets/data" rename ="data" />
+	<assets path="assets/images" rename ="images" />
+	<assets path="assets/music" rename ="music" />
+	<assets path="assets/sounds" rename ="sounds" />
 	
 	<haxelib name="openfl" />
 	<haxelib name="flixel"/>
@@ -48,7 +53,7 @@
 	
 	<!--Disable the Flixel core sound tray-->
 	<!--<haxedef name="FLX_NO_SOUND_TRAY" />-->
-
+	
 	<!--Disable the Flixel core focus lost screen-->
 	<!--<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />-->
 	
