@@ -32,16 +32,13 @@
 	<!--<haxedef name="FLX_THREADING" />-->
 	
 	<!--Enable the flixel core recording system-->
-    	<!--<haxedef name="FLX_RECORD" />-->
+	<!--<haxedef name="FLX_RECORD" />-->
 	
 	<!--Enable right and middle click support for the mouse. Flash player version 11.2+, no HTML5 support -->
 	<!--<haxedef name="FLX_MOUSE_ADVANCED" />-->
 	
-        <!--Disable the Native cursor api for Flash target-->
+	<!--Disable the Native cursor api for Flash target-->
 	<!-- <haxedef name="FLX_NO_NATIVE_CURSOR"/> -->
-
-	<!--Disable the Flixel core debugger-->
-	<!--<haxedef name="FLX_NO_DEBUG" />-->
 	
 	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
 	<!--<haxedef name="FLX_NO_MOUSE" if="mobile" />-->
@@ -54,4 +51,7 @@
 
 	<!--Disable the Flixel core focus lost screen-->
 	<!--<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />-->
+	
+	<!--Disable the Flixel core debugger-->
+	<!--<haxedef name="FLX_NO_DEBUG" />-->
 </project>
