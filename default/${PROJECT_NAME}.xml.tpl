@@ -31,7 +31,8 @@
 	
 	<!--In case you want to use nape with flixel-->
 	<!--<haxelib name="nape"/>-->
-	<!--<haxedef name="nme" />-->
+	<!--Enable this for nape release builds for a serious peformance improvement-->
+	<!--<haxedef name="NAPE_RELEASE_BUILD"/>--> 
 	
 	<!--Enable experimental threading support for cpp targets-->
 	<!--<haxedef name="FLX_THREADING" />-->
