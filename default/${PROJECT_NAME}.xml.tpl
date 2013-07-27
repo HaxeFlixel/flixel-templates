@@ -50,7 +50,7 @@
 	<!--<haxedef name="FLX_NO_MOUSE" if="mobile" />-->
 	<!--<haxedef name="FLX_NO_KEYBOARD" if="mobile" />-->
 	<!--<haxedef name="FLX_NO_TOUCH" if="desktop" />-->
-	<!--<haxedef name="FLX_NO_JOYSTICK" />-->
+	<!--<haxedef name="FLX_NO_GAMEPAD" />-->
 	
 	<!--Disable the Flixel core sound tray-->
 	<!--<haxedef name="FLX_NO_SOUND_TRAY" />-->
