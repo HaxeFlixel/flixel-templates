@@ -3,12 +3,12 @@
 	[
 		{
 			"follow_symlinks": true,
-			"name": "${PROJECT_NAME}"
+			"name": "${PROJECT_NAME}",
 			"path": "${PROJECT_PATH}"
 		},
 		{
 			"follow_symlinks": true,
-			"name": "Haxe"
+			"name": "Haxe",
 			"path": "${HAXE_STD_PATH}"
 		},
 		{
