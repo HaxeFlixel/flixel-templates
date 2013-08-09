@@ -24,15 +24,15 @@
 	<haxelib name="flixel"/>
 	
 	<!--In case you want to use the addons package-->
-	<!--<haxelib name="flixel-addons"/>-->
+	<!--<haxelib name="flixel-addons" />-->
 	
 	<!--In case you want to use the ui package-->
 	<!--<haxelib name="flixel-ui"/>-->
 	
 	<!--In case you want to use nape with flixel-->
-	<!--<haxelib name="nape"/>-->
+	<!--<haxelib name="nape" />-->
 	<!--Enable this for nape release builds for a serious peformance improvement-->
-	<!--<haxedef name="NAPE_RELEASE_BUILD"/>--> 
+	<!--<haxedef name="NAPE_RELEASE_BUILD" />--> 
 	
 	<!--Enable experimental threading support for cpp targets-->
 	<!--<haxedef name="FLX_THREADING" />-->
@@ -44,7 +44,7 @@
 	<!--<haxedef name="FLX_MOUSE_ADVANCED" />-->
 	
 	<!--Disable the Native cursor api for Flash target-->
-	<!-- <haxedef name="FLX_NO_NATIVE_CURSOR"/> -->
+	<!-- <haxedef name="FLX_NO_NATIVE_CURSOR" /> -->
 	
 	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
 	<!--<haxedef name="FLX_NO_MOUSE" if="mobile" />-->
@@ -59,5 +59,5 @@
 	<!--<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />-->
 	
 	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
-	<haxedef name="FLX_NO_DEBUG" unless="debug"/>
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
 </project>
