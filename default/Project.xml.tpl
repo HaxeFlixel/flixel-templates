@@ -15,10 +15,8 @@
 	<set name="BUILD_DIR" value="export" />
 	<classpath name="source" />
 	
-	<assets path="assets/data" rename ="data" />
-	<assets path="assets/images" rename ="images" />
-	<assets path="assets/music" rename ="music" />
-	<assets path="assets/sounds" rename ="sounds" />
+	<!--You can use rename="newName" to shorten the paths to the individual subdirectories!-->
+	<assets path="assets" />
 	
 	<haxelib name="openfl" />
 	<haxelib name="flixel"/>
