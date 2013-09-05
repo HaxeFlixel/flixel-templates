@@ -11,9 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/source" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/assets" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="haXe 3.0.0" jdkType="haXe SDK" />
+    <orderEntry type="jdk" jdkName="Haxe 3.0.0" jdkType="Haxe SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="openfl" level="application" />
+    <orderEntry type="library" name="OpenFL" level="application" />
     <orderEntry type="library" name="${IDEA_Flixel_Addons_Library}" level="application" />
     <orderEntry type="library" name="${IDEA_Flixel_Engine_Library}" level="application" />
   </component>
