@@ -3,10 +3,10 @@ package;
 import flixel.util.FlxSave;
 
 /**
-* Handy, pre-built Registry class that can be used to store 
-* references to objects and other things for quick-access. Feel
-* free to simply ignore it or change it in any way you like.
-*/
+ * Handy, pre-built Registry class that can be used to store 
+ * references to objects and other things for quick-access. Feel
+ * free to simply ignore it or change it in any way you like.
+ */
 class Reg
 {
 	/**
@@ -34,10 +34,4 @@ class Reg
 	 * Especially useful for setting up multiple save slots.
 	 */
 	static public var saves:Array<FlxSave> = [];
-	/**
-	 * Generic container for a <code>FlxSave</code>. You might want to 
-	 * consider assigning <code>FlxG._game._prefsSave</code> to this in
-	 * your state if you want to use the same save flixel uses internally
-	 */
-	static public var save:FlxSave;
 }

@@ -1,4 +1,4 @@
-package
+package $(PackageName);
 
 import flixel.util.FlxSave;
 
@@ -34,10 +34,4 @@ class Reg
 	 * Especially useful for setting up multiple save slots.
 	 */
 	static public var saves:Array<FlxSave> = [];
-	/**
-	 * Generic container for a <code>FlxSave</code>. You might want to 
-	 * consider assigning <code>FlxG._game._prefsSave</code> to this in
-	 * your state if you want to use the same save flixel uses internally
-	 */
-	static public var save:FlxSave;
 }
