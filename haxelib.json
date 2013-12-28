@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "0.0.1",
-    "releasenote": "Basic templates for Flash Develop and Sublime Text.",
+    "version": "1.0.0",
+    "releasenote": "Initial haxelib release.",
     "contributors": ["haxeflixel"],
     "dependencies": { "flixel": "" }
 }
