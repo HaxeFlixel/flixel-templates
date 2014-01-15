@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	<app title="${PROJECT_NAME}" file="${PROJECT_NAME}" main="Main" version="0.0.1" company="HaxeFlixel" />
+	<!------------------------------APPLICATION SETTINGS---------------------------->
 	
-	<window width="${WIDTH}" height="${HEIGHT}" fps="60" orientation="portrait" resizable="true" if="web" />
-	<window width="${WIDTH}" height="${HEIGHT}" fps="60" orientation="landscape" fullscreen="false" hardware="true" vsync="true" unless="web" />
+	<app title="${PROJECT_NAME}" file="{PROJECT_NAME}" main="Main" version="0.0.1" company="HaxeFlixel" />
 	
 	<!--The flixel preloader is not accurate in Chrome. You can use it regualary if you embed the swf into a html file, or you can set the actual size of your file manually at "Flxpreloader-onUpdate-bytesTotal"!-->
 	<app preloader="flixel.system.FlxPreloader" />
@@ -11,11 +10,29 @@
 	<!--The swf version should be at least 11.2 if you want to use the FLX_MOUSE_ADVANCED option-->
 	<set name="SWF_VERSION" value="11.2" />
 	
+	<!--------------------------------WINDOW SETTINGS------------------------------->
+	
+	<!--These window settings apply to all targets-->
+	<window width="${WIDTH}" height="${HEIGHT}" fps="60" background="#000000" hardware="true" vsync="true" />
+	
+	<!--Web-specific-->
+	<window if="web"		orientation="portrait"  />
+	
+	<!--Desktop-specific-->
+	<window if="desktop"	orientation="landscape" fullscreen="false" resizable="true" />
+	
+	<!--Mobile-specific-->
+	<window if="mobile"		orientation="landscape" fullscreen="true" width="0" height="0" />
+	
+	<!--------------------------------PATHS SETTINGS-------------------------------->
+	
 	<set name="BUILD_DIR" value="export" />
 	<classpath name="source" />
 	
-	<!--You can use rename="newName" to shorten the paths to the individual subdirectories!-->
+	<!--You can use rename="newName" to shorten the paths to individual subdirectories!-->
 	<assets path="assets" />
+	
+	<!--------------------------------LIBRARIES------------------------------------->
 	
 	<haxelib name="openfl" />
 	<haxelib name="flixel"/>
@@ -28,6 +45,9 @@
 	
 	<!--In case you want to use nape with flixel-->
 	<!--<haxelib name="nape" />-->
+	
+	<!---------------------------------HAXEDEFINES---------------------------------->
+	
 	<!--Enable this for nape release builds for a serious peformance improvement-->
 	<!--<haxedef name="NAPE_RELEASE_BUILD" />--> 
 	
