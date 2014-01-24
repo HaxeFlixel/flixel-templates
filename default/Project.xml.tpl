@@ -54,8 +54,8 @@
 	<!--Enable the flixel core recording system-->
 	<!--<haxedef name="FLX_RECORD" />-->
 	
-	<!--Enable right and middle click support for the mouse. Flash player version 11.2+, no HTML5 support -->
-	<!--<haxedef name="FLX_MOUSE_ADVANCED" />-->
+	<!--Disable the right and middle mouse buttons-->
+	<!--<haxedef name="FLX_NO_MOUSE_ADVANCED" />-->
 	
 	<!--Disable the Native cursor api for Flash target-->
 	<!-- <haxedef name="FLX_NO_NATIVE_CURSOR" /> -->
