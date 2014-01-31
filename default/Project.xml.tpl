@@ -4,7 +4,7 @@
 	
 	<app title="${PROJECT_NAME}" file="${PROJECT_NAME}" main="Main" version="0.0.1" company="HaxeFlixel" />
 	
-	<!--The flixel preloader is not accurate in Chrome. You can use it regualary if you embed the swf into a html file, or you can set the actual size of your file manually at "Flxpreloader-onUpdate-bytesTotal"!-->
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file, or you can set the actual size of your file manually at "Flxpreloader-onUpdate-bytesTotal"!-->
 	<app preloader="flixel.system.FlxPreloader" />
 	
 	<!--The swf version should be at least 11.2 if you want to use the FLX_MOUSE_ADVANCED option-->
