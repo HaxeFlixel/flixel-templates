@@ -7,7 +7,7 @@
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file, or you can set the actual size of your file manually at "Flxpreloader-onUpdate-bytesTotal"!-->
 	<app preloader="flixel.system.FlxPreloader" />
 	
-	<!--The swf version should be at least 11.2 if you want to use the FLX_MOUSE_ADVANCED option-->
+	<!--The swf version should be at least 11.2 without FLX_NO_MOUSE_ADVANCED -->
 	<set name="SWF_VERSION" value="11.2" />
 	
 	<!--------------------------------WINDOW SETTINGS------------------------------->
