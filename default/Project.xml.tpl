@@ -33,8 +33,7 @@
 	<assets path="assets" />
 	
 	<!--------------------------------LIBRARIES------------------------------------->
-	
-	<haxelib name="openfl" />
+
 	<haxelib name="flixel"/>
 	
 	<!--In case you want to use the addons package-->

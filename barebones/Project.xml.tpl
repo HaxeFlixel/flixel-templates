@@ -22,7 +22,6 @@
 	
 	<!--------------------------------LIBRARIES------------------------------------->
 	
-	<haxelib name="openfl" />
 	<haxelib name="flixel"/>
 	<!--<haxelib name="flixel-addons" />-->
 	<!--<haxelib name="flixel-ui"/>-->
