@@ -2,6 +2,8 @@
 
 [flixel](https://github.com/HaxeFlixel/flixel) | [addons](https://github.com/HaxeFlixel/flixel-addons) | [ui](https://github.com/HaxeFlixel/flixel-ui) | [demos](https://github.com/HaxeFlixel/flixel-demos) | [tools](https://github.com/HaxeFlixel/flixel-tools) | [templates](https://github.com/HaxeFlixel/flixel-templates) | [docs](https://github.com/HaxeFlixel/flixel-docs) | [haxeflixel.com](https://github.com/HaxeFlixel/haxeflixel.com)
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/HaxeFlixel/flixel-templates/trend.png)](https://bitdeli.com/HaxeFlixel "Bitdeli Badge")
+
 ## About
 
 This is set of templates for HaxeFlixel, compatible with the most commonly used Haxe IDEs:
@@ -18,7 +20,3 @@ You have two options to use the templates:
 ## Updating the template
 
 If you change the default template, be sure to update the FlashDevelop `.fdz`-template in `ide-data/flash-develop-fdz` accordingly as well. Afterwards, the `generate.bat` should be run to update the `pregenerated` folder.
-
-=
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/HaxeFlixel/flixel-templates/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
