@@ -10,9 +10,9 @@
 	
 	<window width="${WIDTH}" height="${HEIGHT}" fps="60" background="#000000" hardware="true" vsync="true" />
 
-	<window if="web"		orientation="portrait"  />
-	<window if="desktop"	orientation="landscape" fullscreen="false" resizable="true" />
-	<window if="mobile"		orientation="landscape" fullscreen="true" width="0" height="0" />
+	<window if="web" orientation="portrait"  />
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" />
 	
 	<!--------------------------------PATHS SETTINGS-------------------------------->
 	
@@ -23,9 +23,9 @@
 	<!--------------------------------LIBRARIES------------------------------------->
 	
 	<haxelib name="flixel"/>
-	<!--<haxelib name="flixel-addons" />-->
-	<!--<haxelib name="flixel-ui"/>-->
-	<!--<haxelib name="nape" />-->
+	<!--haxelib name="flixel-addons" />
+	<!--haxelib name="flixel-ui" />
+	<!--haxelib name="nape" />
 	
 	<!---------------------------------HAXEDEFINES---------------------------------->
 	
