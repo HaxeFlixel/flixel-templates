@@ -3,7 +3,6 @@
 	<!------------------------------APPLICATION SETTINGS---------------------------->
 	
 	<app title="${PROJECT_NAME}" file="${PROJECT_NAME}" main="Main" version="0.0.1" company="HaxeFlixel" />
-	<app preloader="flixel.system.FlxPreloader" />
 	<set name="SWF_VERSION" value="11.8" />
 	
 	<!--------------------------------WINDOW SETTINGS------------------------------->

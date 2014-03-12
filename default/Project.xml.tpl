@@ -5,7 +5,7 @@
 	<app title="${PROJECT_NAME}" file="${PROJECT_NAME}" main="Main" version="0.0.1" company="HaxeFlixel" />
 	
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file, or you can set the actual size of your file manually at "Flxpreloader-onUpdate-bytesTotal"!-->
-	<app preloader="flixel.system.FlxPreloader" />
+	<!--app preloader="flixel.system.FlxPreloader" /-->
 	
 	<!--The swf version should be at least 11.8 without FLX_NO_GAMEPAD -->
 	<set name="SWF_VERSION" value="11.8" />
@@ -16,13 +16,13 @@
 	<window width="${WIDTH}" height="${HEIGHT}" fps="60" background="#000000" hardware="true" vsync="true" />
 	
 	<!--Web-specific-->
-	<window if="web"		orientation="portrait"  />
+	<window if="web" orientation="portrait"  />
 	
 	<!--Desktop-specific-->
-	<window if="desktop"	orientation="landscape" fullscreen="false" resizable="true" />
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
 	
 	<!--Mobile-specific-->
-	<window if="mobile"		orientation="landscape" fullscreen="true" width="0" height="0" />
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" />
 	
 	<!--------------------------------PATHS SETTINGS-------------------------------->
 	
