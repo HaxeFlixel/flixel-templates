@@ -30,4 +30,5 @@
 	<!---------------------------------HAXEDEFINES---------------------------------->
 	
 	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
 </project>
