@@ -5,7 +5,7 @@ import flixel.FlxSprite;
 import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.ui.FlxButton;
-import flixel.util.FlxMath;
+import flixel.math.FlxMath;
 
 /**
  * A FlxState which can be used for the actual gameplay.
