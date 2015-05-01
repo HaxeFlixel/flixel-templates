@@ -13,7 +13,7 @@ This is set of templates for HaxeFlixel, compatible with the most commonly used 
 You have two options to use the templates:
 
 1. Use [flixel-tools](https://github.com/HaxeFlixel/flixel-tools) to generate a template with certain parameters via the command line.
-2. Download them directly from [haxeflixel.com/downloads](http://haxeflixel.com/downloads/).
+2. Download them directly from [haxeflixel.com/downloads](http://haxeflixel.com/download/).
 
 ## Updating the template
 
