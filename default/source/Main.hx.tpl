@@ -31,7 +31,11 @@ class Main extends Sprite
 		
 		if (stage != null) 
 		{
+			#if ios
+			haxe.Timer.delay(init, 100); // iOS v. > 6
+			#else
 			init();
+			#end
 		}
 		else 
 		{
