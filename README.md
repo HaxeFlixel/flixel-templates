@@ -10,7 +10,7 @@ This is set of templates for HaxeFlixel, compatible with the most commonly used 
 
 * FlashDevelop
 * Sublime Text
-* Intelij Idea
+* IntelliJ Idea
 
 You have two options to use the templates:
 
