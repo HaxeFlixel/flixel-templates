@@ -21,10 +21,10 @@ install:
   - haxelib list
 
 script:
-  - haxelib run flixel tpl -n "Default"
+  - haxelib run flixel-tools tpl -n "Default"
   - cd Default
   - haxelib run lime test $TARGET
   - cd ..
-  - haxelib run flixel tpl barebones -n "BareBones"
+  - haxelib run flixel-tools tpl barebones -n "BareBones"
   - cd BareBones
   - haxelib run lime test $TARGET
