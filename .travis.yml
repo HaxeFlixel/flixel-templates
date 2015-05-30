@@ -1,0 +1,30 @@
+language: haxe
+
+haxe:
+  - "3.2.0"
+  - "3.1.3"
+  - development
+  
+env: 
+  - TARGET=flash
+  - TARGET=neko
+  - TARGET=cpp
+  - TARGET=html5
+  
+install:
+  - haxelib install lime > /dev/null
+  - haxelib install openfl > /dev/null
+  - haxelib install hxcpp > /dev/null
+  - haxelib git flixel https://github.com/HaxeFlixel/flixel > /dev/null
+  - haxelib git flixel-tools https://github.com/HaxeFlixel/flixel-tools > /dev/null
+  - haxelib dev flixel-templates $TRAVIS_BUILD_DIR
+  - haxelib list
+
+script:
+  - haxelib run flixel tpl -n "Default"
+  - cd Default
+  - haxelib run lime test $TARGET
+  - cd ..
+  - haxelib run flixel tpl barebones -n "BareBones"
+  - cd BareBones
+  - haxelib run lime test $TARGET
