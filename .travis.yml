@@ -23,8 +23,8 @@ install:
 script:
   - haxelib run flixel-tools tpl -n "Default"
   - cd Default
-  - haxelib run lime test $TARGET
+  - haxelib run lime build $TARGET
   - cd ..
   - haxelib run flixel-tools tpl barebones -n "BareBones"
   - cd BareBones
-  - haxelib run lime test $TARGET
+  - haxelib run lime build $TARGET
