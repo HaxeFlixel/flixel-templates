@@ -25,6 +25,6 @@ cd ..
 cd ide-data/flash-develop-fdz
 7z a -tzip ../../FlxProject.zip
 cd ..\..\
-move /y "FlxProject.zip" "pregenerated\FlxProject.fdz" 
+move /y "FlxProject.zip" "pregenerated\FlxProject.fdz"
 
 pause
