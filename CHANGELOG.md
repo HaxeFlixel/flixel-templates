@@ -1,3 +1,13 @@
+?.?.?
+------------------------------
+* Compatibility with flixel 4.0.0
+* The following defines are now enabled by default in the `Project.xml`:
+ * `<haxedef name="FLX_NO_MOUSE" if="mobile" />`
+ * `<haxedef name="FLX_NO_KEYBOARD" if="mobile" />`
+ * `<haxedef name="FLX_NO_TOUCH" if="desktop" />`
+* Removed unnecssary code from `Main.hx`
+* Removed trailing whitespace
+
 1.0.2
 ------------------------------
 * Compatibility with flixel 3.3.0
