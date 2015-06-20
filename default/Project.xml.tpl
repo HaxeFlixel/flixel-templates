@@ -17,7 +17,7 @@
 	<window width="${WIDTH}" height="${HEIGHT}" fps="60" background="#000000" hardware="true" vsync="true" />
 
 	<!--Web-specific-->
-	<window if="web" orientation="portrait"  />
+	<window if="web" orientation="portrait" />
 
 	<!--Desktop-specific-->
 	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
