@@ -21,10 +21,13 @@ install:
   - haxelib list
 
 script:
-  - haxelib run flixel-tools tpl -n "Default"
-  - cd Default
+  - cd $HOME/haxe/lib/flixel-tools/git
+  - haxe build.hxml
+  - cd $TRAVIS_BUILD_DIR
+  - haxelib run flixel-tools tpl -n "default"
+  - cd default
   - haxelib run lime build $TARGET
   - cd ..
-  - haxelib run flixel-tools tpl barebones -n "BareBones"
-  - cd BareBones
+  - haxelib run flixel-tools tpl barebones -n "barebones"
+  - cd barebones
   - haxelib run lime build $TARGET
