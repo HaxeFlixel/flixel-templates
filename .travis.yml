@@ -15,6 +15,7 @@ install:
   - haxelib install lime > /dev/null
   - haxelib install openfl > /dev/null
   - haxelib install hxcpp > /dev/null
+  - haxelib install mlib > /dev/null
   - haxelib git flixel https://github.com/HaxeFlixel/flixel > /dev/null
   - haxelib git flixel-tools https://github.com/HaxeFlixel/flixel-tools > /dev/null
   - haxelib dev flixel-templates $TRAVIS_BUILD_DIR
