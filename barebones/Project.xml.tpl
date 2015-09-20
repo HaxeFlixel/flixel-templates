@@ -22,10 +22,10 @@
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
-	<haxelib name="flixel"/>
-	<!--haxelib name="flixel-addons" /-->
-	<!--haxelib name="flixel-ui" /-->
-	<!--haxelib name="nape" /-->
+	<haxelib name="flixel" />
+	<!--<haxelib name="flixel-addons" />-->
+	<!--<haxelib name="flixel-ui" />-->
+	<!--<haxelib name="nape" />-->
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
