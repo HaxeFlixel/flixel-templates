@@ -8,33 +8,30 @@
     <movie fps="30" />
     <movie width="640" />
     <movie height="480" />
-    <movie version="3" />
+    <movie version="1" />
     <movie minorVersion="0" />
-    <movie platform="NME" />
+    <movie platform="Lime" />
     <movie background="ffffff" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="Source" />
-    <class path="Export/flash/haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="nme_install_tool&#xA;web&#xA;code_completion" />
+    <option directives="" />
     <option flashStrict="False" />
     <option mainClass="ApplicationMain" />
     <option enabledebug="False" />
-    <option additional="--connect 6000&#xA;-swf-version 10.1" />
+    <option additional="" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="openfl" />
-    <library name="flixel" />
-    <library name="flixel-addons" />
+    <!-- example: <library name="..." /> -->
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="Source\ProjectClass.hx" />
+    <compile path="source\Main.hx" />
   </compileTargets>
   <!-- Assets to embed into the output SWF -->
   <library>
