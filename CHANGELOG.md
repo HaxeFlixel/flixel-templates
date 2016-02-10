@@ -1,4 +1,4 @@
-?.?.?
+2.0.0
 ------------------------------
 * Compatibility with flixel 4.0.0
 * The following defines are now enabled by default in the `Project.xml`:
@@ -7,6 +7,10 @@
  * `<haxedef name="FLX_NO_TOUCH" if="desktop" />`
 * Removed unnecssary code from `Main.hx`
 * Removed trailing whitespace
+* Removed `Reg.hx`
+* Removed some comments
+* Removed the barebones template
+* Default to `<window resizable="false" />` on HTML5
 
 1.0.2
 ------------------------------
