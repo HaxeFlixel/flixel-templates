@@ -8,9 +8,9 @@
     <movie fps="60" />
     <movie width="${WIDTH}" />
     <movie height="${HEIGHT}" />
-    <movie version="3" />
+    <movie version="1" />
     <movie minorVersion="0" />
-    <movie platform="NME" />
+    <movie platform="Lime" />
     <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
@@ -27,12 +27,11 @@
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="nme" />
-    <library name="flixel" />
+    <!-- example: <library name="..." /> -->
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="source\GameClass.hx" />
+    <compile path="source\Main.hx" />
   </compileTargets>
   <!-- Assets to embed into the output SWF -->
   <library>
@@ -50,7 +49,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="flash" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage />

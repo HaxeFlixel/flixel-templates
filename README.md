@@ -2,7 +2,8 @@
 
 [flixel](https://github.com/HaxeFlixel/flixel) | [addons](https://github.com/HaxeFlixel/flixel-addons) | [ui](https://github.com/HaxeFlixel/flixel-ui) | [demos](https://github.com/HaxeFlixel/flixel-demos) | [tools](https://github.com/HaxeFlixel/flixel-tools) | [templates](https://github.com/HaxeFlixel/flixel-templates) | [docs](https://github.com/HaxeFlixel/flixel-docs) | [haxeflixel.com](https://github.com/HaxeFlixel/haxeflixel.com)
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/HaxeFlixel/flixel-templates/trend.png)](https://bitdeli.com/HaxeFlixel "Bitdeli Badge")
+[![Haxelib Version](https://img.shields.io/github/tag/HaxeFlixel/flixel-templates.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/flixel-templates)
+[![Build Status](https://travis-ci.org/HaxeFlixel/flixel-templates.png)](https://travis-ci.org/HaxeFlixel/flixel-templates)
 
 ## About
 
@@ -10,12 +11,12 @@ This is set of templates for HaxeFlixel, compatible with the most commonly used 
 
 * FlashDevelop
 * Sublime Text
-* Intelij Idea
+* IntelliJ Idea
 
 You have two options to use the templates:
 
 1. Use [flixel-tools](https://github.com/HaxeFlixel/flixel-tools) to generate a template with certain parameters via the command line.
-2. Download them directly from [haxeflixel.com/downloads](http://haxeflixel.com/downloads/).
+2. Download them directly from [haxeflixel.com/downloads](http://haxeflixel.com/download/).
 
 ## Updating the template
 
