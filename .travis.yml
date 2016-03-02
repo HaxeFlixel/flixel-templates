@@ -2,7 +2,6 @@ language: haxe
 
 haxe:
   - 3.2.0
-  - development
  
 env: 
   - TARGET=flash
@@ -24,6 +23,6 @@ script:
   - cd $HOME/haxe/lib/flixel-tools/git
   - haxe build.hxml
   - cd $TRAVIS_BUILD_DIR
-  - haxelib run flixel-tools tpl -n "default"
-  - cd default
+  - haxelib run flixel-tools tpl -n "template"
+  - cd template
   - haxelib run lime build $TARGET
