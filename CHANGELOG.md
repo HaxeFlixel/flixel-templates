@@ -1,3 +1,7 @@
+2.0.1
+------------------------------
+* `.fdz` template: fixed the `update()` signature for HaxeFlixel 4.0.0
+
 2.0.0
 ------------------------------
 * Compatibility with flixel 4.0.0
