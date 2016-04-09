@@ -23,8 +23,8 @@ class Project extends HXProject
 
 		includeAssets("assets");
 
-		window.width = $ {WIDTH};
-		window.height = $ {HEIGHT};
+		window.width = ${WIDTH};
+		window.height = ${HEIGHT};
 		window.fps = 60;
 		window.background = 0x000000;
 		window.hardware = true;
