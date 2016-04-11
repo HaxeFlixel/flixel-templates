@@ -9,6 +9,6 @@ class Main extends Sprite
     public function new()
     {
         super();
-        addChild(new FlxGame(Std.int(Lib.current.stage.width), Std.int(Lib.current.stage.height), MenuState));
+        addChild(new FlxGame(0, 0, MenuState));
     }
 }
