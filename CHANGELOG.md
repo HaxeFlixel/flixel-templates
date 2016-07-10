@@ -1,3 +1,8 @@
+2.0.2
+------------------------------
+* Compatibility with flixel 4.1.0
+* `Main.hx`: changed `Width` and `Height` arguments to 0 (#25)
+
 2.0.1
 ------------------------------
 * `.fdz` template: fixed the `update()` signature for HaxeFlixel 4.0.0
