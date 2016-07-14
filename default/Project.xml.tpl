@@ -33,6 +33,8 @@
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
+	<!--For capability reason-->
+	<haxelib name="lime" version="2.9.1" />
 	<haxelib name="flixel" />
 
 	<!--In case you want to use the addons package-->
