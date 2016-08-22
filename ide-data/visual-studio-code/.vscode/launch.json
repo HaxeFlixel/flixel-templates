@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "html5",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/export/html5",
+            "sourceMaps": true,
+			"preLaunchTask": "html5 debug"
+        }
+    ]
+}
