@@ -175,7 +175,7 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="haXe Application.OpenFL">
+  <component name="RunManager" selected="Haxe Application.${PROJECT_NAME}">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -266,12 +266,9 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Hxcpp Debug" type="HXCPPRemoteRunConfigurationType" factoryName="HXCPP Remote Debug">
+   <configuration default="false" name="${PROJECT_NAME}" type="HaxeApplicationRunConfiguration" factoryName="Haxe Application" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="${PROJECT_NAME}" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Hxcpp Debug" type="HXCPPRemoteRunConfigurationType" factoryName="HXCPP Remote Debug">
-      <module name="${PROJECT_NAME}" />
+      <option name="name" value="Flixel" />
       <method />
     </configuration>
     <configuration default="false" name="OpenFL" type="HaxeApplicationRunConfiguration" factoryName="haXe Application">
@@ -286,11 +283,10 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="HXCPP Remote Debug.Hxcpp Debug" />
-      <item index="1" class="java.lang.String" itemvalue="HXCPP Remote Debug.Hxcpp Debug" />
-      <item index="2" class="java.lang.String" itemvalue="haXe Application.OpenFL" />
+     <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Haxe Application.${PROJECT_NAME}" />
     </list>
+
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
