@@ -11,7 +11,8 @@ This is set of templates for HaxeFlixel, compatible with the most commonly used 
 
 * FlashDevelop
 * Sublime Text
-* IntelliJ Idea
+* IntelliJ IDEA
+* Visual Studio Code
 
 You have two options to use the templates:
 
