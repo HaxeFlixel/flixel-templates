@@ -27,5 +27,6 @@
         ["export/android/haxe/release.hxml"],
         ["export/ios/haxe/debug.hxml"],
         ["export/ios/haxe/release.hxml"]
-    ]
+    ],
+    "haxe.diagnosticsPathFilter": "${workspacePath}/source"
 }
