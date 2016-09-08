@@ -1,3 +1,8 @@
+2.1.0
+------------------------------
+* Added template files for Visual Studio Code (requires flixel-tools 1.2.0)
+* Updated the IntelliJ IDEA template (#28)
+
 2.0.2
 ------------------------------
 * Compatibility with flixel 4.1.0
