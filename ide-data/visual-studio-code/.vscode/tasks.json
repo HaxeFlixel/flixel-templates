@@ -24,7 +24,7 @@
 		{
 			"taskName": "flash debug",
 			"suppressTaskName": true,
-			"args": ["flash", "-Ddebug"],
+			"args": ["flash", "-debug"],
 			"isBuildCommand": true,
 			"problemMatcher": {
 				"owner": "haxe",
@@ -61,7 +61,7 @@
 		{
 			"taskName": "html5 debug",
 			"suppressTaskName": true,
-			"args": ["html5", "-Ddebug"],
+			"args": ["html5", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -97,7 +97,7 @@
 		{
 			"taskName": "neko debug",
 			"suppressTaskName": true,
-			"args": ["neko", "-Ddebug"],
+			"args": ["neko", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -133,7 +133,7 @@
 		{
 			"taskName": "neko debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["neko", "-Ddebug", "-Dnext"],
+			"args": ["neko", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -169,7 +169,7 @@
 		{
 			"taskName": "cpp debug",
 			"suppressTaskName": true,
-			"args": ["cpp", "-Ddebug"],
+			"args": ["cpp", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -205,7 +205,7 @@
 		{
 			"taskName": "cpp debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["cpp", "-Dnext", "-Ddebug"],
+			"args": ["cpp", "-Dnext", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -223,7 +223,7 @@
 		{
 			"taskName": "android debug",
 			"suppressTaskName": true,
-			"args": ["android", "-Ddebug"],
+			"args": ["android", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -259,7 +259,7 @@
 		{
 			"taskName": "android debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["android", "-Ddebug", "-Dnext"],
+			"args": ["android", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -295,7 +295,7 @@
 		{
 			"taskName": "ios debug",
 			"suppressTaskName": true,
-			"args": ["ios", "-Ddebug"],
+			"args": ["ios", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -331,7 +331,7 @@
 		{
 			"taskName": "ios debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["ios", "-Ddebug", "-Dnext"],
+			"args": ["ios", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
