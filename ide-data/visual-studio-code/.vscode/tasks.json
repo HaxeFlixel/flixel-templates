@@ -24,7 +24,7 @@
 		{
 			"taskName": "flash debug",
 			"suppressTaskName": true,
-			"args": ["flash", "-debug"],
+			"args": ["flash", "-debug", "-Dfdb"],
 			"isBuildCommand": true,
 			"problemMatcher": {
 				"owner": "haxe",
