@@ -4,10 +4,9 @@
 		{
 			"name": "flash build + launch",
 			"type": "fdb",
-			"request": "compileAndLaunch",
+			"request": "launch",
 			"program": "${workspaceRoot}/export/flash/bin/${APPLICATION_FILE}.swf",
-			"compileCommand": "haxelib run lime build flash -debug -Dfdb",
-			"compilePath": "${workspaceRoot}"
+			"preLaunchTask": "flash debug (build only)"
 		},
 		{
 			"name": "flash launch",

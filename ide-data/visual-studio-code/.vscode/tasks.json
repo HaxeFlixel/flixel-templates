@@ -1,12 +1,12 @@
 {
 	"version": "0.1.0",
 	"command": "haxelib",
-	"args": ["run", "lime", "test"],
+	"args": ["run", "lime"],
 	"tasks": [
 		{
 			"taskName": "flash release",
 			"suppressTaskName": true,
-			"args": ["flash"],
+			"args": ["test", "flash"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -24,7 +24,26 @@
 		{
 			"taskName": "flash debug",
 			"suppressTaskName": true,
-			"args": ["flash", "-debug", "-Dfdb"],
+			"args": ["test", "flash", "-debug", "-Dfdb"],
+			"isBuildCommand": true,
+			"problemMatcher": {
+				"owner": "haxe",
+				"pattern": {
+					"regexp": "^(.+):(\\d+): (?:lines \\d+-(\\d+)|character(?:s (\\d+)-| )(\\d+)) : (?:(Warning) : )?(.*)$",
+					"file": 1,
+					"line": 2,
+					"endLine": 3,
+					"column": 4,
+					"endColumn": 5,
+					"severity": 6,
+					"message": 7
+				}
+			}
+		},
+		{
+			"taskName": "flash debug (build only)",
+			"suppressTaskName": true,
+			"args": ["build", "flash", "-debug", "-Dfdb"],
 			"isBuildCommand": true,
 			"problemMatcher": {
 				"owner": "haxe",
@@ -43,7 +62,7 @@
 		{
 			"taskName": "html5 release",
 			"suppressTaskName": true,
-			"args": ["html5"],
+			"args": ["test", "html5"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -61,7 +80,7 @@
 		{
 			"taskName": "html5 debug",
 			"suppressTaskName": true,
-			"args": ["html5", "-debug"],
+			"args": ["test", "html5", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -79,7 +98,7 @@
 		{
 			"taskName": "neko release",
 			"suppressTaskName": true,
-			"args": ["neko"],
+			"args": ["test", "neko"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -97,7 +116,7 @@
 		{
 			"taskName": "neko debug",
 			"suppressTaskName": true,
-			"args": ["neko", "-debug"],
+			"args": ["test", "neko", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -115,7 +134,7 @@
 		{
 			"taskName": "neko release -Dnext",
 			"suppressTaskName": true,
-			"args": ["neko", "-Dnext"],
+			"args": ["test", "neko", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -133,7 +152,7 @@
 		{
 			"taskName": "neko debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["neko", "-debug", "-Dnext"],
+			"args": ["test", "neko", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -151,7 +170,7 @@
 		{
 			"taskName": "cpp release",
 			"suppressTaskName": true,
-			"args": ["cpp"],
+			"args": ["test", "cpp"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -169,7 +188,7 @@
 		{
 			"taskName": "cpp debug",
 			"suppressTaskName": true,
-			"args": ["cpp", "-debug"],
+			"args": ["test", "cpp", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -187,7 +206,7 @@
 		{
 			"taskName": "cpp release -Dnext",
 			"suppressTaskName": true,
-			"args": ["cpp", "-Dnext"],
+			"args": ["test", "cpp", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -205,7 +224,7 @@
 		{
 			"taskName": "cpp debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["cpp", "-Dnext", "-debug"],
+			"args": ["test", "cpp", "-Dnext", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -223,7 +242,7 @@
 		{
 			"taskName": "android debug",
 			"suppressTaskName": true,
-			"args": ["android", "-debug"],
+			"args": ["test", "android", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -241,7 +260,7 @@
 		{
 			"taskName": "android release",
 			"suppressTaskName": true,
-			"args": ["android"],
+			"args": ["test", "android"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -259,7 +278,7 @@
 		{
 			"taskName": "android debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["android", "-debug", "-Dnext"],
+			"args": ["test", "android", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -277,7 +296,7 @@
 		{
 			"taskName": "android release -Dnext",
 			"suppressTaskName": true,
-			"args": ["android", "-Dnext"],
+			"args": ["test", "android", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -295,7 +314,7 @@
 		{
 			"taskName": "ios debug",
 			"suppressTaskName": true,
-			"args": ["ios", "-debug"],
+			"args": ["test", "ios", "-debug"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -313,7 +332,7 @@
 		{
 			"taskName": "ios release",
 			"suppressTaskName": true,
-			"args": ["ios"],
+			"args": ["test", "ios"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -331,7 +350,7 @@
 		{
 			"taskName": "ios debug -Dnext",
 			"suppressTaskName": true,
-			"args": ["ios", "-debug", "-Dnext"],
+			"args": ["test", "ios", "-debug", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
@@ -349,7 +368,7 @@
 		{
 			"taskName": "ios release -Dnext",
 			"suppressTaskName": true,
-			"args": ["ios", "-Dnext"],
+			"args": ["test", "ios", "-Dnext"],
 			"problemMatcher": {
 				"owner": "haxe",
 				"pattern": {
