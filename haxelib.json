@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.1.0",
-    "releasenote": "Visual Studio Code support, improved IntelliJ support.",
+    "version": "2.2.0",
+    "releasenote": "Start in PlayState, VSCode Flash debug config.",
     "contributors": ["haxeflixel"],
     "dependencies": { "flixel": "" }
 }

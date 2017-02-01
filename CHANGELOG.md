@@ -1,3 +1,9 @@
+2.2.0
+------------------------------
+* Changed the initial state from `MenuState` to `PlayState` (#30)
+* Added a Flash debug config to VSCode's `launch.json`
+* Added a search exclude filter to VSCode's `settings.json` 
+
 2.1.0
 ------------------------------
 * Added template files for Visual Studio Code (requires flixel-tools 1.2.0)
