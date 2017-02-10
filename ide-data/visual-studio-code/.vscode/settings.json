@@ -31,5 +31,10 @@
 	"haxe.diagnosticsPathFilter": "${workspaceRoot}/source",
 	"search.exclude": {
 		"export/**/**.hx": true
+	},
+	"codedox": {
+		"commentdescription": "\n",
+		"paramFormat": "@param   ${name} ",
+		"returnFormat": "@return  ${type}"
 	}
 }
