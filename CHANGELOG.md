@@ -1,3 +1,7 @@
+2.2.1
+------------------------------
+* Added the Haxe Extension Pack to VSCode workspace recommendations
+
 2.2.0
 ------------------------------
 * Changed the initial state from `MenuState` to `PlayState` (#30)
