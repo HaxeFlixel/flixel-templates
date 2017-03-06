@@ -1,3 +1,7 @@
+2.2.2
+------------------------------
+* Updated `version` in the VSCode `tasks.json` to 2.0.0 (VSCode 1.10.0)
+
 2.2.1
 ------------------------------
 * Added the Haxe Extension Pack to VSCode workspace recommendations

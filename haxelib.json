@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.2.1",
-    "releasenote": "VSCode workspace recommendations.",
+    "version": "2.2.2",
+    "releasenote": "Use tasks.json version 2.0.0 for VSCode.",
     "contributors": ["haxeflixel"],
     "dependencies": { "flixel": "" }
 }
