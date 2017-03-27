@@ -1,3 +1,8 @@
+2.3.0
+------------------------------
+* Removed `MenuState.hx`
+* Removed unused imports
+
 2.2.2
 ------------------------------
 * Updated `version` in the VSCode `tasks.json` to 2.0.0 (VSCode 1.10.0)
