@@ -1,3 +1,7 @@
+2.3.1
+------------------------------
+* Use vshaxe 1.5.0's problem matcher in `tasks.json` (VSCode 1.11.0)
+
 2.3.0
 ------------------------------
 * Removed `MenuState.hx`
