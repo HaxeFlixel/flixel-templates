@@ -1,3 +1,7 @@
+2.3.2
+------------------------------
+* Fixed `isBuildCommand` being used twice in `tasks.json`
+
 2.3.1
 ------------------------------
 * Use vshaxe 1.5.0's problem matcher in `tasks.json` (VSCode 1.11.0)
@@ -42,7 +46,7 @@
  * `<haxedef name="FLX_NO_MOUSE" if="mobile" />`
  * `<haxedef name="FLX_NO_KEYBOARD" if="mobile" />`
  * `<haxedef name="FLX_NO_TOUCH" if="desktop" />`
-* Removed unnecssary code from `Main.hx`
+* Removed unnecessary code from `Main.hx`
 * Removed trailing whitespace
 * Removed `Reg.hx`
 * Removed some comments

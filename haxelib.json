@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.3.1",
-    "releasenote": "Use vshaxe 1.5.0's problem matcher in tasks.json.",
+    "version": "2.3.2",
+    "releasenote": "Fixed isBuildCommand being used twice in tasks.json.",
     "contributors": ["haxeflixel"],
     "dependencies": { "flixel": "" }
 }
