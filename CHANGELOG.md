@@ -1,3 +1,9 @@
+2.4.0
+------------------------------
+* Added hxcpp launch configs to `launch.json`
+* Fixed the `"search.exclude"` glob pattern in `settings.json` (#32)
+* Fixed the display config paths on Linux in `settings.json` (#33)
+
 2.3.2
 ------------------------------
 * Fixed `isBuildCommand` being used twice in `tasks.json`
