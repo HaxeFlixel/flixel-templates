@@ -30,7 +30,7 @@
 			"name": "Mac",
 			"type": "hxcpp",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/mac/cpp/bin/${APPLICATION_FILE}.exe"
+			"program": "${workspaceRoot}/export/mac64/cpp/bin/${APPLICATION_FILE}.app/Contents/MacOS/${APPLICATION_FILE}"
 		}
 	]
 }
