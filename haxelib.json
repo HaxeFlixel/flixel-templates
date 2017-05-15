@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.4.0",
-    "releasenote": "VSCode hxcpp launch configs, find in files and Linux completion fix.",
+    "version": "2.4.1",
+    "releasenote": "VSCode template fixes for Mac and Linux.",
     "contributors": ["haxeflixel"],
     "dependencies": { "flixel": "" }
 }

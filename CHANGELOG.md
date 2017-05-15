@@ -1,3 +1,8 @@
+2.4.1 (May 15, 2017)
+------------------------------
+* Fixed the hxcpp launch config paths on Mac and Linux (#34)
+* Fixed the display config paths on Mac in `settings.json`
+
 2.4.0 (May 13, 2017)
 ------------------------------
 * Added hxcpp launch configs to `launch.json`
