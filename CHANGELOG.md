@@ -1,3 +1,7 @@
+2.4.2 (June 19, 2017)
+------------------------------
+* Reduced VSCode extension recommendations to just vshaxe
+
 2.4.1 (May 15, 2017)
 ------------------------------
 * Fixed the hxcpp launch config paths on Mac and Linux (#34)
