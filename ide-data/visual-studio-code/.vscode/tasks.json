@@ -13,7 +13,10 @@
 			"taskName": "flash debug",
 			"suppressTaskName": true,
 			"args": ["test", "flash", "-debug", "-Dfdb"],
-			"isBuildCommand": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"problemMatcher": "$haxe"
 		},
 		{
