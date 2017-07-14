@@ -1,3 +1,7 @@
+2.4.3 (July 14, 2017)
+------------------------------
+* Updated `tasks.json` for VSCode 1.14.0
+
 2.4.2 (June 19, 2017)
 ------------------------------
 * Reduced VSCode extension recommendations to just vshaxe
