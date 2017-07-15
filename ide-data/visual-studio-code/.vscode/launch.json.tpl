@@ -15,6 +15,15 @@
 			"preLaunchTask": "flash debug (build only)"
 		},
 		{
+			"name": "Rebuild and Launch Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://127.0.0.1:3000",
+			"sourceMaps": true,
+			"preLaunchTask": "html5 debug",
+			"webRoot": "${workspaceRoot}"
+		},		
+		{
 			"name": "Windows",
 			"type": "hxcpp",
 			"request": "launch",
