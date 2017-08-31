@@ -1,3 +1,7 @@
+2.4.4 (August 31, 2017)
+------------------------------
+* Removed the deprecated `suppressTaskName` from the VSCode `tasks.json`
+
 2.4.3 (July 14, 2017)
 ------------------------------
 * Updated `tasks.json` for VSCode 1.14.0
