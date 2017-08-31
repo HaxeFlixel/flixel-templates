@@ -1,18 +1,16 @@
 {
 	"version": "2.0.0",
-	"command": "haxelib",
-	"args": ["run", "lime"],
 	"tasks": [
 		{
 			"taskName": "flash release",
-			"suppressTaskName": true,
-			"args": ["test", "flash"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "flash"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "flash debug",
-			"suppressTaskName": true,
-			"args": ["test", "flash", "-debug", "-Dfdb"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "flash", "-debug", "-Dfdb"],
 			"group": {
 				"kind": "build",
 				"isDefault": true
@@ -21,116 +19,116 @@
 		},
 		{
 			"taskName": "flash debug (build only)",
-			"suppressTaskName": true,
-			"args": ["build", "flash", "-debug", "-Dfdb"],
+			"command": "haxelib",
+			"args": ["run", "lime", "build", "flash", "-debug", "-Dfdb"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "html5 release",
-			"suppressTaskName": true,
-			"args": ["test", "html5"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "html5"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "html5 debug",
-			"suppressTaskName": true,
-			"args": ["test", "html5", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "html5", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "neko release",
-			"suppressTaskName": true,
-			"args": ["test", "neko"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "neko"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "neko debug",
-			"suppressTaskName": true,
-			"args": ["test", "neko", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "neko", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "neko release -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "neko", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "neko", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "neko debug -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "neko", "-debug", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "neko", "-debug", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "cpp release",
-			"suppressTaskName": true,
-			"args": ["test", "cpp"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "cpp"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "cpp debug",
-			"suppressTaskName": true,
-			"args": ["test", "cpp", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "cpp", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "cpp release -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "cpp", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "cpp", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "cpp debug -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "cpp", "-Dnext", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "cpp", "-Dnext", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "android debug",
-			"suppressTaskName": true,
-			"args": ["test", "android", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "android", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "android release",
-			"suppressTaskName": true,
-			"args": ["test", "android"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "android"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "android debug -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "android", "-debug", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "android", "-debug", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "android release -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "android", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "android", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "ios debug",
-			"suppressTaskName": true,
-			"args": ["test", "ios", "-debug"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "ios", "-debug"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "ios release",
-			"suppressTaskName": true,
-			"args": ["test", "ios"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "ios"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "ios debug -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "ios", "-debug", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "ios", "-debug", "-Dnext"],
 			"problemMatcher": "$haxe"
 		},
 		{
 			"taskName": "ios release -Dnext",
-			"suppressTaskName": true,
-			"args": ["test", "ios", "-Dnext"],
+			"command": "haxelib",
+			"args": ["run", "lime", "test", "ios", "-Dnext"],
 			"problemMatcher": "$haxe"
 		}
 	]
