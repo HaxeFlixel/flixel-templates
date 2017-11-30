@@ -7,5 +7,5 @@
     "version": "2.4.4",
     "releasenote": "Removed deprecated suppressTaskName property from tasks.json.",
     "contributors": ["haxeflixel"],
-    "dependencies": { "flixel": "" }
+    "dependencies": {}
 }
