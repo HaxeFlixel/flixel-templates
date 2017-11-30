@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.4.4",
-    "releasenote": "Removed deprecated suppressTaskName property from tasks.json.",
+    "version": "2.4.5",
+    "releasenote": "Fixed flixel-tools not finding templates if dependencies are missing.",
     "contributors": ["haxeflixel"],
     "dependencies": {}
 }

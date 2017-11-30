@@ -1,3 +1,7 @@
+2.4.5 (November 30, 2017)
+------------------------------
+* Fixed flixel-tools not finding templates if dependencies are missing
+
 2.4.4 (August 31, 2017)
 ------------------------------
 * Removed the deprecated `suppressTaskName` from the VSCode `tasks.json`
