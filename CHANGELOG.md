@@ -1,3 +1,7 @@
+2.4.6 (December 10, 2017)
+------------------------------
+* Fixed deprecation warnings in the VSCode `tasks.json`
+
 2.4.5 (November 30, 2017)
 ------------------------------
 * Fixed flixel-tools not finding templates if dependencies are missing
