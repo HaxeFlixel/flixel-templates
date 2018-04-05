@@ -2,133 +2,18 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "flash release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "flash"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "flash debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "flash", "-debug", "-Dfdb"],
+			"type": "lime",
+			"command": "test",
+			"problemMatcher": "$haxe",
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			},
-			"problemMatcher": "$haxe"
+			}
 		},
 		{
-			"label": "flash debug (build only)",
+			"label": "debug: flash",
 			"command": "haxelib",
 			"args": ["run", "lime", "build", "flash", "-debug", "-Dfdb"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "html5 release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "html5"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "html5 debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "html5", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "neko release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "neko"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "neko debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "neko", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "neko release -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "neko", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "neko debug -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "neko", "-debug", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "cpp release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "cpp"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "cpp debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "cpp", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "cpp release -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "cpp", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "cpp debug -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "cpp", "-Dnext", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "android debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "android", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "android release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "android"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "android debug -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "android", "-debug", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "android release -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "android", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "ios debug",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "ios", "-debug"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "ios release",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "ios"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "ios debug -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "ios", "-debug", "-Dnext"],
-			"problemMatcher": "$haxe"
-		},
-		{
-			"label": "ios release -Dnext",
-			"command": "haxelib",
-			"args": ["run", "lime", "test", "ios", "-Dnext"],
 			"problemMatcher": "$haxe"
 		}
 	]
