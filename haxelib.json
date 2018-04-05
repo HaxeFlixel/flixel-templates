@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.4.6",
-    "releasenote": "Fixed deprecation warnings in the VSCode tasks.json.",
+    "version": "2.5.0",
+    "releasenote": "Updated the VSCode config for use with the Lime extension.",
     "contributors": ["haxeflixel"],
     "dependencies": {}
 }

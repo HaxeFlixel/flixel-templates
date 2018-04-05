@@ -1,3 +1,8 @@
+2.5.0 (April 5, 2018)
+------------------------------
+* Updated the VSCode config for use with the Lime extension
+* Disabled `vsync` by default in `Project.xml`
+
 2.4.6 (December 10, 2017)
 ------------------------------
 * Fixed deprecation warnings in the VSCode `tasks.json`
