@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.5.0",
-    "releasenote": "Updated the VSCode config for use with the Lime extension.",
+    "version": "2.5.1",
+    "releasenote": "Added problem matchers added in vshaxe 1.11.0.",
     "contributors": ["haxeflixel"],
     "dependencies": {}
 }

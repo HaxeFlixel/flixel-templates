@@ -1,3 +1,7 @@
+2.5.1 (April 9, 2018)
+------------------------------
+* Added problem matchers added in vshaxe 1.11.0
+
 2.5.0 (April 5, 2018)
 ------------------------------
 * Updated the VSCode config for use with the Lime extension
