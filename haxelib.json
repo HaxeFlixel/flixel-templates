@@ -2,7 +2,7 @@
     "name": "flixel-templates",
     "url": "http://www.haxeflixel.com",
     "license": "MIT",
-    "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross"],
+    "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
     "version": "2.5.1",
     "releasenote": "Added problem matchers added in vshaxe 1.11.0.",
