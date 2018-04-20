@@ -6,7 +6,6 @@ haxe:
 env: 
   - TARGET=flash
   - TARGET=neko
-  - TARGET=cpp
   - TARGET=html5
 
 install:
