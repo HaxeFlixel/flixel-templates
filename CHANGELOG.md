@@ -1,3 +1,8 @@
+2.5.2 (May 2, 2018)
+------------------------------
+* Added a HTML5 launch config to `launch.json`
+* Removed unnecessary problem matchers from `lime test` in `tasks.json`
+
 2.5.1 (April 9, 2018)
 ------------------------------
 * Added problem matchers added in vshaxe 1.11.0
