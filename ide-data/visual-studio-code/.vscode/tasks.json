@@ -4,7 +4,6 @@
 		{
 			"type": "lime",
 			"command": "test",
-			"problemMatcher": ["$haxe-absolute", "$haxe", "$haxe-error", "$haxe-trace"],
 			"group": {
 				"kind": "build",
 				"isDefault": true
