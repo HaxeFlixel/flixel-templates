@@ -9,14 +9,12 @@ env:
   - TARGET=html5
 
 install:
-  - haxelib install lime 2.9.1 > /dev/null
-  - haxelib install openfl 3.6.1 > /dev/null
-  - haxelib install hxcpp 3.3.49 > /dev/null
-  - haxelib install mlib > /dev/null
-  - haxelib git flixel https://github.com/HaxeFlixel/flixel > /dev/null
-  - haxelib git flixel-tools https://github.com/HaxeFlixel/flixel-tools > /dev/null
+  - haxelib git flixel https://github.com/HaxeFlixel/flixel
+  - cd ~/haxe/lib/flixel/git/tests
+  - haxe RunTravis.hxml
+  - neko RunTravis.n flash new -install
+  - cd -
   - haxelib dev flixel-templates $TRAVIS_BUILD_DIR
-  - haxelib list
 
 script:
   - cd $HOME/haxe/lib/flixel-tools/git
