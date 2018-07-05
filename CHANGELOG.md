@@ -1,3 +1,7 @@
+2.5.3 (July 6, 2018)
+------------------------------
+* Added Windows/Linux/Mac configs to `launch.json`
+
 2.5.2 (May 2, 2018)
 ------------------------------
 * Added a HTML5 launch config to `launch.json`
