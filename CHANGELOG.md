@@ -1,3 +1,7 @@
+2.5.4 (February 12, 2019)
+------------------------------
+* Added a Macro launch config to `launch.json`
+
 2.5.3 (July 6, 2018)
 ------------------------------
 * Added Windows/Linux/Mac configs to `launch.json`
