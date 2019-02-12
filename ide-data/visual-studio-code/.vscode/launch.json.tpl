@@ -33,6 +33,11 @@
 			"type": "hxcpp",
 			"request": "launch",
 			"program": "${workspaceRoot}/export/mac64/bin/${APPLICATION_FILE}.app/Contents/MacOS/${APPLICATION_FILE}"
+		},
+		{
+			"name": "Macro",
+			"type": "haxe-eval",
+			"request": "launch"
 		}
 	]
 }
