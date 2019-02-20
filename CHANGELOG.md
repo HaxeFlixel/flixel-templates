@@ -1,3 +1,7 @@
+2.5.5 (February 20, 2019)
+------------------------------
+* Modernized `launch.json` to use `${workspaceFolder}`
+
 2.5.4 (February 12, 2019)
 ------------------------------
 * Added a Macro launch config to `launch.json`

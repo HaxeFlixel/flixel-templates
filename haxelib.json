@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.5.4",
-    "releasenote": "VSCode Macro launch config.",
+    "version": "2.5.5",
+    "releasenote": "Modernize launch.json to use ${workspaceFolder}.",
     "contributors": ["haxeflixel", "Gama11"],
     "dependencies": {}
 }
