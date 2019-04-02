@@ -1,3 +1,7 @@
+2.6.0 (April 2, 2019)
+------------------------------
+* Updated launch configs for Lime 7.3.0 and Lime VSCode extension 1.3.0
+
 2.5.5 (February 20, 2019)
 ------------------------------
 * Modernized `launch.json` to use `${workspaceFolder}`
