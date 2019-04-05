@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.6.0",
-    "releasenote": "Update launch configs for Lime 7.3.0 and Lime VSCode extension 1.3.0.",
+    "version": "2.6.1",
+    "releasenote": "Added a second Lime launch config without a preLaunchTask.",
     "contributors": ["haxeflixel", "Gama11"],
     "dependencies": {}
 }
