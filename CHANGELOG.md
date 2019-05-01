@@ -1,3 +1,7 @@
+2.6.2 (May 1, 2019)
+------------------------------
+* Replaced `nape` in `Project.xml` with `nape-haxe4`
+
 2.6.1 (April 5, 2019)
 ------------------------------
 * Added a second Lime launch config without a `preLaunchTask`

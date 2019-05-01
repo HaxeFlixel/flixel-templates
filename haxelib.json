@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.6.1",
-    "releasenote": "Added a second Lime launch config without a preLaunchTask.",
+    "version": "2.6.2",
+    "releasenote": "Replaced nape with nape-haxe4.",
     "contributors": ["haxeflixel", "Gama11"],
     "dependencies": {}
 }
