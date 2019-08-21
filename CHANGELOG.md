@@ -1,3 +1,7 @@
+2.6.3 (August 21, 2019)
+------------------------------
+* Removed the `diagnosticsPathFilter` from VSCode settings
+
 2.6.2 (May 1, 2019)
 ------------------------------
 * Replaced `nape` in `Project.xml` with `nape-haxe4`
