@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.6.3",
-    "releasenote": "Removed the diagnosticsPathFilter from VSCode settings.",
+    "version": "2.6.4",
+    "releasenote": "Minor code style update.",
     "contributors": ["haxeflixel", "Gama11"],
     "dependencies": {}
 }

@@ -1,3 +1,7 @@
+2.6.4 (March 28, 2020)
+------------------------------
+* Minor code style update
+
 2.6.3 (August 21, 2019)
 ------------------------------
 * Removed the `diagnosticsPathFilter` from VSCode settings
