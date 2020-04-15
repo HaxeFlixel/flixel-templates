@@ -3,7 +3,7 @@
 [flixel](https://github.com/HaxeFlixel/flixel) | [addons](https://github.com/HaxeFlixel/flixel-addons) | [ui](https://github.com/HaxeFlixel/flixel-ui) | [demos](https://github.com/HaxeFlixel/flixel-demos) | [tools](https://github.com/HaxeFlixel/flixel-tools) | [templates](https://github.com/HaxeFlixel/flixel-templates) | [docs](https://github.com/HaxeFlixel/flixel-docs) | [haxeflixel.com](https://github.com/HaxeFlixel/haxeflixel.com)
 
 [![Haxelib Version](https://img.shields.io/github/tag/HaxeFlixel/flixel-templates.svg?label=haxelib)](http://lib.haxe.org/p/flixel-templates)
-[![Build Status](https://img.shields.io/travis/HaxeFlixel/flixel-templates.svg)](https://travis-ci.org/HaxeFlixel/flixel-templates)
+[![CI](https://img.shields.io/github/workflow/status/HaxeFlixel/flixel-templates/CI.svg?logo=github)](https://github.com/HaxeFlixel/flixel-templates/actions?query=workflow%3ACI)
 
 ## About
 
