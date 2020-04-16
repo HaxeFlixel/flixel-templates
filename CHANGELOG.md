@@ -1,3 +1,8 @@
+2.6.5 (April 16, 2020)
+------------------------------
+* Enabled formatting and import sorting on save in VSCode
+* Enabled `"haxe.enableExtendedIndentation"` in VSCode
+
 2.6.4 (March 28, 2020)
 ------------------------------
 * Minor code style update
