@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["game", "openfl", "flash", "neko", "cpp", "android", "ios", "cross", "vscode"],
     "description": "Templates for HaxeFlixel projects",
-    "version": "2.6.5",
-    "releasenote": "Enabled format on save and extended indentation in VSCode.",
+    "version": "2.6.6",
+    "releasenote": "Added Lime XSD schema references to enable completion.",
     "contributors": ["haxeflixel", "Gama11"],
     "dependencies": {}
 }

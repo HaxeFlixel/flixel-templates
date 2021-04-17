@@ -1,3 +1,8 @@
+2.6.6 (April 17, 2021)
+------------------------------
+* Added Lime XSD schema references to enable completion
+* Added the Red Hat XML extension to VSCode extension recommendations
+
 2.6.5 (April 16, 2020)
 ------------------------------
 * Enabled formatting and import sorting on save in VSCode
