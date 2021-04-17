@@ -16,10 +16,7 @@ This is set of templates for HaxeFlixel, compatible with the most commonly used 
 * Sublime Text
 * IntelliJ IDEA
 
-You have two options to use the templates:
-
-1. Use [flixel-tools](https://github.com/HaxeFlixel/flixel-tools) to generate a template with certain parameters via the command line.
-2. Download them directly from [haxeflixel.com/downloads](http://haxeflixel.com/download/).
+To generate a project from the templates, you can use [flixel-tools](https://github.com/HaxeFlixel/flixel-tools)' `template` command as documented [here](https://haxeflixel.com/documentation/hello-world/).
 
 ## Updating the template
 
