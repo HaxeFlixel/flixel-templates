@@ -1,6 +1,6 @@
 {
 	"search.exclude": {
-		"export/**/*.hx": true
+		"export/**/*.*": true
 	},
 	"[haxe]": {
 		"editor.formatOnSave": true,
