@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-	<component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="Haxe 3.0.0" project-jdk-type="Haxe SDK">
+	<component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="Haxe 4.2.5" project-jdk-type="Haxe toolkit">
     <output url="file://$PROJECT_DIR$/export" />
   </component>
 </project>
