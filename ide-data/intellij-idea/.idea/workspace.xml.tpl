@@ -184,14 +184,8 @@
       <changelist id="b23be74e-fb6e-4718-a6cc-7be1cd1893b8" name="Default" comment="" />
       <created>1378092715337</created>
       <updated>1378092715337</updated>
-      <workItem from="1378092719697" duration="57000" />
-      <workItem from="1378092777558" duration="531000" />
-      <workItem from="1378102502259" duration="247000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
