@@ -59,7 +59,6 @@
   <component name="FavoritesManager">
     <favorites_list name="${PROJECT_NAME}" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
