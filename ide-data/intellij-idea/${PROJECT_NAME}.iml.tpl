@@ -13,5 +13,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="OpenFL" level="application" />
+    <orderEntry type="library" name="${IDEA_Flixel_Addons_Library}" level="application" />
+    <orderEntry type="library" name="${IDEA_Flixel_Engine_Library}" level="application" />
   </component>
 </module>
