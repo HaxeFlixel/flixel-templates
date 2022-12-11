@@ -59,11 +59,6 @@
   <component name="FavoritesManager">
     <favorites_list name="${PROJECT_NAME}" />
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
