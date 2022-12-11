@@ -11,7 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/source" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/assets" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Haxe 3.3.0" jdkType="Haxe SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
