@@ -13,34 +13,31 @@ package;
 	FlxG.sound.play("assets/sounds/mySound.wav");
 	```
 
-	Using `AssetPaths` make it safe to move(or rename) your assets - whenever that happens
-	you are forced to fix, e.g. `AssetPaths.mySound__wav`, since `mySound__wav` is
-	no longer there and it is a compilation error. What if in a similar situation you used plain strings?
-	If you are lucky you will quickly get a runtime error (in debug mode). Otherwise finding why your
-	game crashes might not be easy.
+	Static fields available on `AssetPaths` will change whenever you add, remove, rename or move a file. 
+	If you remove a file that is still referenced via `AssetPaths` you'll get a compile error, 
+	this could be handy compared to using string paths, which only cause a runtime error if the file is missing.
 
-	## Features
+	## Ignored Assets
 
-	### Bad file names
+	In some cases `AssetPaths` will ignore your assets. You will get a warning at compile time when:
 
-	You will get a warning if there are problems with your assets names:
+	- File names do not match Haxe valid id pattern, e.g. starting with a digit.
 
-	- Filenames that do not match Haxe valid id pattern, e.g. starting with a digit.
-
-		`assets/1.ogg` won't appear on `AssetPaths` since you cannot do `AssetPaths.1__ogg` in Haxe.
-		If you don't want to rename the file you have to use it as a string:
+		A file `assets/1.ogg` won't appear on `AssetPaths` since you cannot do `AssetPaths.1__ogg` in Haxe.
+		If you don't want to rename the file you have to use it as a string.
 
 		```haxe
 		FlxG.sound.play("assets/1.ogg");
 
 		// this wont work
 		// FlxG.sound.play(AssetPaths.1__ogg);
+		// assets/1.ogg:1: character 1 : Warning : Invalid name: 1__ogg for file: assets/1.ogg
 		```
 
-	- Duplicate file names
+	- Duplicate file names.
 
 		If you have assets with the same file names, whichever file is nested deeper or found later 
-		will be ignored. You will get a warning in that case.
+		will be ignored.
 
 		```haxe
 		// assets folder:
@@ -49,18 +46,19 @@ package;
 
 		// prints "assets/music/hero.ogg"
 		trace(AssetPaths.hero__ogg);
+		// assets/sounds/hero.ogg:1: character 1 : Warning : Duplicate files named "hero__ogg" ignoring assets/sounds/hero.ogg
 		```
 
 	## More control
 
-	`AssetPaths` is using `flixel.system.FlxAssets.buildFileReferences` (this method can be used to build any
-	class). Check its documentation for more details.
+	`AssetPaths` uses [`flixel.system.FlxAssets.buildFileReferences`](https://api.haxeflixel.com/flixel/system/FlxAssets.html#buildFileReferences). The method provides you some control on what and how 
+	`AssetPaths`'s fields are built. Check its documentation for more details.
 
 	### Include and exclude
 
 	These args can either be an `EReg`, or a wildcard string, similar to openfl's `project.xml args`. 
 	For example to exclude everything in a folder called "test", as well as any .ase files, 
-	you would use `~/\/test\/|\.ase/`
+	you would use `~/\/test\/|\.ase/`.
 
 	```haxe
 	@:build(flixel.system.FlxAssets.buildFileReferences("assets", true, null, ~/\/test\/|\.ase/))
@@ -69,8 +67,9 @@ package;
 
 	### Renaming
 
-	You can provide `rename` function, e.g. to deal with duplicate names. Returning `null`
-	means "ignore the file"
+	You can provide `rename` function, e.g. to deal with duplicate names. The function takes a filepath 
+	(a relative filepath from the `Project.xml`) and returns a field name used to access that path. 
+	Returning `null` means "ignore the file".
 
 	```haxe
 	// assets structure:
@@ -80,14 +79,10 @@ package;
 	// AssetPaths.hx
 	@:build(flixel.system.FlxAssets.buildFileReferences("assets", true, null, null, function(name:String):Null<String> {
 	return name.toLowerCase()
-		.split("/")
-		.join("_")
-		.split("-")
-		.join("_")
-		.split(" ")
-		.join("_")
-		.split(".")
-		.join("__");
+					.split("/").join("_")
+					.split("-").join("_")
+					.split(" ").join("_")
+					.split(".").join("__");
 	}))
 	class AssetPaths {}
 
