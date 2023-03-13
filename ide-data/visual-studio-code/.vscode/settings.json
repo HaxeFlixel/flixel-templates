@@ -4,7 +4,8 @@
 	},
 	"[haxe]": {
 		"editor.formatOnSave": true,
-		"editor.formatOnPaste": true,
+		"editor.formatOnSaveMode":"modifications",
+		"editor.formatOnPaste": false,
 		"editor.codeActionsOnSave": {
 			"source.sortImports": true
 		}
