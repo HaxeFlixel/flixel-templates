@@ -16,8 +16,6 @@ jobs:
     - run: sudo apt-get update
     - uses: actions/checkout@v3
     
-    - run: haxelib dev flixel-templates .
-    
     - uses: krdlab/setup-haxe@v1
       with:
         haxe-version: ${{matrix.haxe-version}}
@@ -26,7 +24,7 @@ jobs:
       run: |
         haxelib setup /home/runner/haxe/haxelib/
         haxelib install haxelib 4.0.3
-        haxelib dev flixel .
+        haxelib dev flixel-templates .
     
     - uses: HaxeFlixel/setup-flixel@v1
       with:
