@@ -49,7 +49,7 @@
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
 	<!--Allows you to use sound paths with no extension, and the default sound type for that
-	 	target will be used. If enabled it will use ogg on all targets except flash, which uses mp3.
+		target will be used. If enabled it will use ogg on all targets except flash, which uses mp3.
 		If value is set to any string, that is used for the file extension-->
 	<!--<haxedef name="FLX_DEFAULT_SOUND_EXT" value="" />-->
 
