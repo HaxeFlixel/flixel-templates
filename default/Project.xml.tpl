@@ -51,12 +51,12 @@
 	<!--Allows you to use sound paths with no extension, and the default sound type for that
 		target will be used. If enabled it will use ogg on all targets except flash, which uses mp3.
 		If value is set to any string, that is used for the file extension-->
-	<!--<haxedef name="FLX_DEFAULT_SOUND_EXT" value="" />-->
+	<!--<haxedef name="FLX_DEFAULT_SOUND_EXT" />-->
 
 	<!--Loads from the specified relative or absolute directory. Unlike other boolean flags, this flag should contain a string value.
 		When using assets entirely from outside the build directory, it is wise to disable any 
 		<assets> tags in your project.xml, to reduce your total memory-->
-	<!--<haxedef name="FLX_CUSTOM_ASSETS_DIRECTORY" value="" />-->
+	<!--<haxedef name="FLX_CUSTOM_ASSETS_DIRECTORY" value="assets" />-->
 
 	<!--Remove the legacy health system-->
 	<haxedef name="FLX_NO_HEALTH" />
